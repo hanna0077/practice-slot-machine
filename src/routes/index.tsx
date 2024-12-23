@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Ranking from "@pages/ranking";
 import SlotMachine from "@pages/slotmachine";
+import Info from "@pages/info";
 import DefaultLayout from "@pages/layouts/Default";
 
 const router = createBrowserRouter([
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
       {
         path: "/slotMachine",
         element: <SlotMachine />,
+      },
+      {
+        path: "/info",
+        element: <Info />,
       },
     ],
   },

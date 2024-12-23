@@ -1,0 +1,45 @@
+header {
+  margin: 58px 60px 54px 50px;
+  display: flex;
+  justify-content: space-between;
+  .rubyInventory {
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+    height: 84px;
+    background-image: url("/src/assets/rubyInventory.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    img {
+      width: 20%;
+    }
+  }
+  nav {
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 36px;
+  }
+}
+
+.slotMachinSetBoardBox {
+  width: 178px;
+  height: 105px;
+  background-image: url("/src/assets/board.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  padding: 12px;
+  h5 {
+    margin: 0 10px;
+    padding: 8px 0;
+    border-bottom: 0.5px solid #fff;
+    color: #e3ff37;
+    text-shadow: 0 2px 2px #000;
+  }
+}

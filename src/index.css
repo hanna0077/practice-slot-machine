@@ -1,3 +1,22 @@
+@font-face {
+  font-family: "KemcoPixel";
+  src: url("/src/assets/fonts/KemcoPixel.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo {
+  width: 300px;
+  font-family: "KemcoPixel", sans-serif;
+  line-height: 100%;
+  font-size: 46px;
+  text-shadow: -2px 0px #222044, 0px 2px #222044, 2px 0px #222044,
+    0px -2px #222044;
+  -webkit-text-stroke: 2px #222044;
+  text-shadow: 0px 6px #6626ff;
+  text-align: center;
+  word-wrap: break-word;
+}
 html,
 body {
   margin: 0;
@@ -9,6 +28,7 @@ body {
   align-items: center;
   background-color: #333;
   overflow: hidden;
+  color: #fff;
 }
 
 * {
@@ -40,4 +60,25 @@ body {
   100% {
     background-position: 0 0;
   }
+}
+
+h1 {
+  font-family: "KemcoPixel", sans-serif;
+  font-size: 44px;
+}
+h2 {
+  font-family: "KemcoPixel", sans-serif;
+  font-size: 34px;
+}
+h3 {
+  font-family: "KemcoPixel", sans-serif;
+  font-size: 30px;
+}
+h4 {
+  font-family: "KemcoPixel", sans-serif;
+  font-size: 28px;
+}
+h5 {
+  font-family: "KemcoPixel", sans-serif;
+  font-size: 24px;
 }

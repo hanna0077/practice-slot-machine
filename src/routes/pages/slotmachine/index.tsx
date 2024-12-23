@@ -1,5 +1,9 @@
-import React from "react";
+import SlotMachinSetBoard from "@src/components/SlotMachinSetBoard";
 
 export default function index() {
-  return <div>index</div>;
+  return (
+    <div>
+      <SlotMachinSetBoard />
+    </div>
+  );
 }
