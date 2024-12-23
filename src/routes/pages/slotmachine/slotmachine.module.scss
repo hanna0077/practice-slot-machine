@@ -1,0 +1,25 @@
+.settingBox {
+  display: flex;
+  justify-content: space-between;
+  .maxBetBtn {
+    width: 178px;
+    height: 105px;
+    background-image: url("/src/assets/maxBetBtn.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    h2 {
+      font-size: 44px !important;
+      color: #e3ff37;
+      text-shadow: 0 4px 4px #000;
+    }
+    &:active {
+      filter: brightness(0.7);
+      h2 {
+        color: #b7c36c;
+        text-shadow: none;
+        text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px #def;
+      }
+    }
+  }
+}

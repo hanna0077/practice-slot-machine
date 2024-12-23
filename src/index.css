@@ -7,7 +7,7 @@
 
 .logo {
   width: 300px;
-  font-family: "KemcoPixel", sans-serif;
+  font-family: "KemcoPixel", "Press Start 2P", sans-serif;
   line-height: 100%;
   font-size: 46px;
   text-shadow: -2px 0px #222044, 0px 2px #222044, 2px 0px #222044,
@@ -81,4 +81,62 @@ h4 {
 h5 {
   font-family: "KemcoPixel", sans-serif;
   font-size: 24px;
+}
+.p1 {
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.p2 {
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+.p3 {
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+.caption {
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+}
+button {
+  border: 0;
+  background-color: transparent;
+}
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+}
+button:focus,
+button:active,
+textarea:focus,
+textarea:active,
+input:focus,
+input:active {
+  box-shadow: none;
+  outline: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
 }
