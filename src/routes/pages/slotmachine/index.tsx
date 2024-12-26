@@ -43,7 +43,9 @@ export default function Index() {
           BTN
         </h2>
       </button>
-      <button type="button" className={styles.spinBtn} />
+      <button type="button" className={styles.spinBtn}>
+        <h1>SPIN</h1>
+      </button>
       <SlotMachinSetBoard
         name="AUTOSPIN"
         min={1}

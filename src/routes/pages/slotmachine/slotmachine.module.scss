@@ -9,16 +9,36 @@
     background-position: center;
     background-repeat: no-repeat;
     h2 {
-      font-size: 44px !important;
+      font-size: 40px !important;
       color: #e3ff37;
-      text-shadow: 0 4px 4px #000;
+      text-shadow: 0 2px 4px #000;
     }
     &:active {
       filter: brightness(0.7);
       h2 {
+        scale: 0.9;
         color: #b7c36c;
         text-shadow: none;
-        text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px #def;
+      }
+    }
+  }
+  .spinBtn {
+    width: 200px;
+    height: 105px;
+    background-image: url("/src/assets/spinBtn.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    h1 {
+      font-size: 32px !important;
+      color: #fff;
+      text-shadow: 0 4px 4px #000;
+    }
+    &:active {
+      filter: brightness(0.7);
+      h1 {
+        color: #dedede;
+        text-shadow: none;
       }
     }
   }
